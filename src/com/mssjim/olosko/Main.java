@@ -2,6 +2,7 @@ package com.mssjim.olosko;
 
 import javax.security.auth.login.LoginException;
 
+import com.mssjim.olosko.utils.Token;
 import com.mssjim.olosko.utils.Utils;
 import com.mssjim.olosko.comandos.cmdBan;
 import com.mssjim.olosko.comandos.cmdClear;
@@ -35,7 +36,7 @@ public class Main {
     public static boolean log = false;
 
     public static void main(String[] args) {
-	    String token = Utils.getToken;
+	    String token = Token.getToken;
 
         JDABuilder builder = new JDABuilder(AccountType.BOT)
                 .setToken(token)

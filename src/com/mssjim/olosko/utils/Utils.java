@@ -6,7 +6,6 @@ import java.util.Random;
 public class Utils {
     public static String getPrefix = ";";
     public static String getInvite = "https://discord.gg/NmSyFcr";
-    public static String getToken = "NjU0NzQ2NTM1MDY5ODc2MjYz.XfKDiw.qBBl9kZOMuvXvXELK1jxymGbZsE";
     public static String getWelcomeChannelID = "672817400999313422";
     public static String getLogChannel = "658654437471944704";
     public static String getPokecordChannel = "667076092171124778";
